@@ -1,0 +1,12 @@
+server:
+  port: 8191
+#spring:
+ # profiles:
+  #  active: native
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sovannpiseth/microservice-test
+          search-paths: '*service'
