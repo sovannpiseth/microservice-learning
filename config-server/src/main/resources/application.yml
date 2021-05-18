@@ -8,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sovannpiseth/microservice-test
-          search-paths: '*service'
+          uri: https://github.com/sovannpiseth/microservice-config-store
+          search-paths: 'service-config/*service'
